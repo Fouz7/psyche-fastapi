@@ -1,0 +1,72 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+__pypackages__/
+
+# Tests / coverage
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Type-check / lint caches
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+.env.example
+
+# Databases (local/dev)
+*.sqlite3
+app.db
+app_test.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node (if present)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ML artifacts (optional)
+# Uncomment to avoid committing large model files
+# *.h5
+# *.hdf5
+# *.keras
+# checkpoints/
+# saved_models/
+
